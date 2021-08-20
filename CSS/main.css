@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #030303;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#canvas{
+background-image: url("../IMG/spaceStars.png");
+}
+
+
+
+#reload{
+    cursor: pointer;
+    background:linear-gradient(to right, #00acf0, #3a00d8);
+    border: none;
+    width: 100px;
+    height: 100px;
+    font-size: 15pt;
+    box-shadow: 10px 10px 10px #ffffff49;
+    border-radius: 10px;
+    color: #000000;
+}
+
+#reload:hover{
+    background: linear-gradient(to right, #08ec3a, #2adbfa);
+}
+
+
+
+#pause{
+    cursor: pointer;
+    background:linear-gradient(to right, #fb4472, #8341fd);
+    border: none;
+    width: 100px;
+    height: 100px;
+    font-size: 15pt;
+    box-shadow: 10px 10px 10px #ffffff49;
+    border-radius: 10px;
+    color: #000000;
+}
+
+#pause:hover{
+    background: linear-gradient(to right, 
+     #03d8fd , #27ff01);
+}
